@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+.bus-card {
+    background-color: rgb(128, 153, 163);
+    justify-content: space-around;
+    display: flex;
+    /*to make a column using flexbox*/
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-bottom: 5px solid rgba(46, 78, 128, 0.133);
+    color: rgb(21, 24, 24);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bus-card .img {
+    width: 150px;
+}

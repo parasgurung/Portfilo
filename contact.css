@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(241, 157, 157);
+    width: 300px;
+    height: 100vh;
+    font-family: 'Fera Sans', sans-serif;
+    text-align: center;
+}
+
+h5 {
+    position: absolute;
+}
+
+.bar {
+    width: 370px;
+    right: 0;
+    position: relative;
+}
+
+.sidebar nav {
+    padding: 40px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 4px;
+    cursor: pointer;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90%;
+}
+
+.container {
+    display: flex;
+}
+
+form .divform {
+    margin: 20px 40px;
+    font-family: 'Fera Sans', sans-serif;
+}
+
+h1 {
+    color: black;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 16px;
+}
+
+.divform .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.divform .email {
+    display: flex;
+    flex-direction: column;
+}
+
+form .divform p {
+    font-size: 12px;
+    padding-left: 10px;
+    color: red;
+}
+
+form .divform .phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.divform .enquiry {
+    display: flex;
+    flex-direction: column;
+}
+
+form .divform .submit {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 200px;
+    margin: 14px 0;
+    padding: 6px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(243, 79, 79);
+    width: 120px;
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+.m {
+    cursor: pointer;
+}

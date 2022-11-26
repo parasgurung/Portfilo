@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0 0 0.8), transparent), url(../../images/mount.jpg);
+    /*url(/images/mount.jpg)*/
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.topbar .navbar {
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 0;
+    width: 120px;
+    color: #fff;
+    text-shadow: 4px -3px 2px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 6px;
+    width: 0;
+    background: #009600;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.6s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absulute;
+    transform: transform(50%);
+    top: 50%;
+    text-align: center;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h2 span {
+    color: red;
+}
+
+.content .para {
+    position: relative;
+    padding-right: auto;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    word-spacing: 1.2px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content h3 {
+    font-weight: 100px;
+    font-size: 40px;
+    color: rgb(245, 255, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    text-align: center;
+    background: transparent;
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid rgb(245, 233, 214);
+    border-radius: 25px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px 10px;
+    position: absulute;
+}
+
+.btn {
+    background-color: rgb(12, 12, 14 / 0.7);
+    color: rgb(238 242 255 / 1);
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.btn:hover {
+    background-color: rgba(1, 1, 3, 0.25);
+}
+
+.btn:hover ::after {
+    width: 100%;
+}
